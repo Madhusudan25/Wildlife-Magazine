@@ -1,0 +1,250 @@
+body,
+html {
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Red Rose", cursive;
+  background-color: #aaaaaa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.cover_page {
+  background-image: url("../images/tiger1.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid yellow;
+  position: relative;
+  color: cornsilk;
+}
+
+#cover_title {
+  font-size: 53px;
+  margin-left: 5%;
+  padding-top: 3%;
+  color: orange;
+}
+
+#cover_title h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 25px;
+  font-size: 125px;
+}
+
+#cover_title span {
+  font-size: 35px;
+}
+
+#left_div1 {
+  width: 15%;
+  text-align: center;
+  padding: 3% 10%;
+}
+
+#left_div1 img {
+  transition-duration: 0.65s;
+}
+
+#left_div1 img:hover {
+  transform: scale(1.3);
+}
+#left_div1 h2 {
+  line-height: 40px;
+  font-size: 50px;
+
+  margin-top: 20px;
+}
+
+.cover_content_right {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  text-align: right;
+  width: 190px;
+}
+
+#right_content span {
+  background-color: orange;
+  color: black;
+}
+
+#right_content h2 {
+  text-align: right;
+  margin: 36% 0;
+}
+
+.right_image {
+  width: 50%;
+  margin-right: 16px;
+}
+
+.right_image_bottom {
+  transform: rotate(-15deg);
+  transition-duration: 0.5s;
+}
+
+.right_image_bottom:hover {
+  transform: rotate(15deg);
+}
+
+.section1 {
+  text-align: left;
+  padding: 2%;
+  margin-top: 0;
+  font-size: 110%;
+  color: aliceblue;
+  background-color: black;
+  margin: 20px 0px;
+  border: 3px solid yellow;
+  transition-duration: 0.5s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.section1:hover {
+  transform: scale(1.02);
+}
+
+.article_image {
+  border-radius: 100%;
+  padding: 20px;
+}
+.article_images_odd {
+  float: left;
+}
+.article_images_even {
+  float: right;
+}
+.article_image:hover {
+  transform: scale(1.02);
+}
+
+.article_header {
+  color: orange;
+  text-align: center;
+  font-size: 150%;
+  padding-top: 3%;
+}
+
+.section2,
+.section3 {
+  position: relative;
+  border: 3px solid yellow;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+.section2 {
+  background-image: url("../images/owl.png");
+}
+
+.section3 {
+  margin: 20px 0;
+  background-image: url("../images/shark.png");
+}
+
+.section2 header,
+.section3 header {
+  font-size: 60px;
+  text-align: center;
+}
+
+.section2 p,
+.section3 p {
+  color: #aaaaaa;
+}
+
+#section2_division1,
+#section3_division1 {
+  color: antiquewhite;
+  width: 30%;
+  border: 3px solid yellow;
+  border-radius: 3px;
+  position: absolute;
+}
+
+#section2_division1 {
+  bottom: 114px;
+  right: 30px;
+}
+
+#section3_division1 {
+  bottom: 30px;
+  right: 30px;
+}
+
+#section2_division2,
+#section3_division2 {
+  padding: 0 30px;
+}
+
+#section2_paragraph2 {
+  width: 30%;
+  padding-top: 100px;
+}
+
+#footer {
+  padding: 20px;
+  border: 3px solid yellow;
+  background-color: gray;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+#footer:hover {
+  transform: scale(1.02);
+}
+
+.footer-icon {
+  color: black;
+  font-size: 30px;
+  padding: 10px 20px 20px 20px;
+}
+.footer-paragraph {
+  color: orange;
+  margin-top: 20px;
+}
+
+.footer-icon :hover {
+  transform: scale(1.2);
+}
